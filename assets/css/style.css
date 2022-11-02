@@ -21,6 +21,34 @@ kiêu dàng */
     color: white !important;
 }
 
+.text-center {
+    text-align: center !important;
+    margin-top: 50px;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+
+/* column */
+.col  {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.col-third {
+    width: 33.33333%;
+}
+
+.col-half {
+    width: 50%;
+}
+
+/* main */
 #main{
 
 }
@@ -180,12 +208,7 @@ kiêu dàng */
     overflow: hidden;
 }
 
-#content .product-item {
-    float: left;
-    width: 33.33333%;
-    text-align: center;
-    margin-top: 50px;
-}
+
 
 #content .item-name {
     font-size: 25px;
@@ -206,7 +229,9 @@ kiêu dàng */
 
 #content .tour-section {
     background-color: black;
-    min-height: 800px;
+    min-height: 1000px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
     
 }
 
@@ -246,16 +271,17 @@ kiêu dàng */
 /* place */
 .places-list {
     margin-top: 32px;
-    margin-left: -8px;
-    margin-right: -8px;
+    /* margin-left: -8px;
+    margin-right: -8px; */
+    margin-bottom: 48px;
 }
 
 .place-item {
-    float: left;
-    width: 33.33333%;
+    /* float: left; */
+    /* width: 33.33333%;
     text-align: center;
-    margin-top: 50px;
-    padding: 0 8px;
+    margin-top: 50px; */
+    /* padding: 0 8px; */
     
 }
 
@@ -273,6 +299,7 @@ kiêu dàng */
     padding: 16px;
     font-size: 15px;
     line-height: 15px;
+    text-align: center;
 }
 
 .place-time {
@@ -309,6 +336,8 @@ kiêu dàng */
 
     chuyển màu khi nhấn giữ
 } */
+
+
 
 #footer {
     min-height: 50px;
